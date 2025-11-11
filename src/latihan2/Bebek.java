@@ -14,11 +14,21 @@ public class Bebek implements Terbang, Berenang {
 
     // Implementasi SEMUA method dari KEDUA interface
     // Dari interface Terbang:
-     @Override public void lepasLandas(){}
-     @Override public void terbang(){}
-     @Override public void mendarat(){}
+     @Override public void lepasLandas(){
+         System.out.println(nama + " sedang lepas landas...");
+     }
+     @Override public void terbang(){
+         System.out.println(nama + " terbang di udara dengan kecepatan " + kecepatan + " km/jam");
+     }
+     @Override public void mendarat(){
+         System.out.println(nama + " mendarat dengan mulus");
+     }
 
     // Dari interface Berenang:
-     @Override public void berenang(){}
-     @Override public void menyelam(){}
+     @Override public void berenang(){
+         System.out.println(nama + " sedang berenang di permukaan air");
+     }
+     @Override public void menyelam(){
+         System.out.println(nama + " menyelam dengan kedalaman 2 meter");
+     }
 }
