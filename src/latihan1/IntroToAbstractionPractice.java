@@ -63,6 +63,17 @@ public class IntroToAbstractionPractice {
         // ===== KEUNTUNGAN ABSTRACTION =====
         System.out.println("\n=== KEUNTUNGAN ABSTRACTION ===");
         // Tuliskan dalam komentar 5 keuntungan menggunakan abstraction
+        /*
+
+         1. Menyembunyikan detail yang rumit.
+
+         2. Mempermudah perawatan program.
+
+         3. Dapat digunakan kembali (reusable).
+
+         4. Menjaga keamanan data.
+
+         5. Membantu fokus pada fungsi utama.*/
 
         /*
          * EKSPEKTASI OUTPUT:
